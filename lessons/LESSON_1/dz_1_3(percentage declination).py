@@ -4,7 +4,6 @@ b = 'процента'
 c = 'процентов'
 exception = [11, 12, 13, 14]
 for i in range(100):
-    i = i + 1
     if i in exception:
         print(i, c)
     elif i % 10 == 1:
