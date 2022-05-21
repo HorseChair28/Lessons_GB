@@ -15,19 +15,3 @@ for price in my_list:
     kop = (price-rub)*100
     correct_list.append(f"{rub} руб  {kop:02.0f} коп")
 print(correct_list[0:5])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

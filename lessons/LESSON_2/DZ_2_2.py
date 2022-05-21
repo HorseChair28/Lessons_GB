@@ -7,4 +7,5 @@ for parts in range(len(my_list)):
         my_list.append(f'"{part[0]}{int(part[1:]):02d}"')
     else:
         my_list.append(part)
+
 print(' '.join(my_list))
